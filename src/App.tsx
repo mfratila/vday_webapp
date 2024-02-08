@@ -12,7 +12,7 @@ const Surprise: React.FC<SurpriseProps> = ({ onClose }) => {
   return (
     <div className="surprise-container">
       <img
-        src="../public/maria.jpg"
+        src="/maria.jpg"
         alt="Surprise Photo"
         style={{ maxWidth: "100%" }}
       />
