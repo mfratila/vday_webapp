@@ -73,8 +73,8 @@ const Page: React.FC = () => {
               Yaaaaay!!!💖💗
             </div>
             {/* Show the Surprise button after "Yes" is clicked */}
-            <button onClick={handleSurpriseClick} className="surprise-button">
-              Apasa aici pentru o surpriza 😉
+            <button style={{marginBottom: "20px"}} onClick={handleSurpriseClick} className="surprise-button">
+              Apasa aici pentru sa vezi cea mai frumoasa femeie din istorie
             </button>
             <button onClick={handleHumpingClick} className="humping-button">
               Asta o sa-ti fac cand te vad 😫
